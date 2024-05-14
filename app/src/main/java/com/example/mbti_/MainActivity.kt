@@ -75,7 +75,7 @@ class MainActivity : ComponentActivity() {
             entpdesc()
             Spacer(modifier = Modifier.height(8.dp))
             Button(onClick = {
-                val intent = Intent(context, INTJ_Activity::class.java)
+                val intent = Intent(context, ENTP_Activity::class.java)
                 context.startActivity(intent)
             }, modifier = Modifier.size(104.dp,32.dp,)){
                 Text(text = "상세보기", fontSize = 12.sp)
